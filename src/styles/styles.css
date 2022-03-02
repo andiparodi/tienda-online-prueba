@@ -1,16 +1,77 @@
-html {
-  font-size: 62.5%;
+body {
+  font-family: "Poppins" !important;
 }
 
-header {
-  border: 1px solid black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 7.5rem;
-  padding: auto 17rem;
+.nav {
+  border-bottom: 1px solid gray;
+}
+
+.nav_logo img {
+  width: 126px;
+}
+
+.nav_cart {
+  font-size: 18px;
+}
+
+.product_item {
+  width: 255px;
+}
+
+.product_item .title {
+  font-weight: 600;
+}
+
+.product_item .price {
+  color: #56B280;
+  font-weight: 600;
+}
+
+.product_cart_img h4 {
+  font-weight: 600;
+}
+
+.product_info-name {
+  font-weight: 600;
+}
+
+.product_info-price {
+  color: #56B280;
+  font-weight: 600;
+}
+
+.product_info-stock {
+  font-size: 14px;
+  border: 1px solid #56B280;
+}
+
+.product_info-ivasku {
+  font-size: 12px;
+}
+
+.product_info_category {
+  font-size: 14px;
+}
+
+.product_info button {
+  background-color: #56B280;
+  color: white;
+  outline: none;
+}
+
+.cart_title a {
+  color: #56B280;
+}
+
+.product_cart span {
+  color: #56B280;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.button-container button {
+  background-color: #56B280;
+  color: white;
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */

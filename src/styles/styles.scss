@@ -1,18 +1,83 @@
 //Tipografía
-$main-font: 'poppins';
+$main-font: 'Poppins'; 
 
 //Colores
 $green: #56B280;
 
-html {
-  font-size: 62.5%;
+body {
+  font-family: $main-font !important;
 }
 
-header {
-  border: 1px solid black;
-  display: flex;
-  justify-content: space-between;
-  height: 7.5rem;
-  padding: auto 17rem;
+.nav {
+  border-bottom: 1px solid gray;
+  &_logo img{
+    width: 126px;
+  }
+  &_cart{
+    font-size: 18px;
+  }
 }
 
+.product_item {
+  width: 255px;
+  .title {
+    font-weight: 600;
+  }
+  .price {
+    color: $green;
+    font-weight: 600;
+  }
+}
+
+.product_cart_img {
+  h4 {
+    font-weight: 600;
+  }
+}
+
+.product_info {
+  &-name {
+    font-weight: 600;
+  }
+  &-price {
+    color: $green;
+    font-weight: 600;
+  }
+  &-stock{
+    font-size: 14px;
+    border: 1px solid $green;
+  }
+  &-ivasku {
+    font-size: 12px;
+  }
+  &_category {
+    font-size: 14px;  
+  }
+  button {
+    background-color: $green;
+    color: white;
+    outline: none;
+  }
+}
+
+.cart_title {
+  a {
+    color: $green;
+  }
+}
+
+.product_cart {
+  span {
+    color: $green;
+    font-size: 14px;
+    font-weight: normal
+  }
+}
+
+.button-container {
+  button {
+    background-color: $green;
+    color: white;
+    outline: none;
+  }
+}
